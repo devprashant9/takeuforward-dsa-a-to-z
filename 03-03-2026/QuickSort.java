@@ -38,3 +38,7 @@ public class QuickSort {
         System.out.println(Arrays.toString(nums));
     }
 }
+
+// TC: O(N log(N))
+// SC: O(1)
+// Has Recursion Stack Space

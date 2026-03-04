@@ -9,7 +9,7 @@ public class BubbleSortRecursive {
         }
 
         for (int j = 0; j < nums.length - i - 1; j++) {
-            if(nums[j] > nums[j + 1]) {
+            if (nums[j] > nums[j + 1]) {
                 swapNumbers(nums, j, j + 1);
             }
         }
